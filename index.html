@@ -39,10 +39,15 @@
     <main class="flex-grow max-w-7xl mx-auto w-full px-6 py-12 lg:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
         <div class="space-y-8 order-2 lg:order-1">
-            <div class="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full">
+            <div class="inline-flex items-center space-x-2.5 bg-gradient-to-r from-purple-100 to-indigo-100 border border-purple-200 text-purple-900 text-sm font-bold tracking-wide px-4 py-2 rounded-full shadow-sm">
+                <!-- Pulsing status dot -->
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-600 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-purple-600"></span>
+                </span>
                 <span>🚀 Launching Soon</span>
             </div>
-            
+
             <h1 class="text-4xl md:text-5xl font-extrabold text-brand-900 tracking-tight leading-none">
                 Speak & Write English with Absolute Confidence.
             </h1>
